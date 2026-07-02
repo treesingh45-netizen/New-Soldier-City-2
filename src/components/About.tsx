@@ -46,7 +46,7 @@ export default function About() {
             </div>
             
             <div className="flex items-center gap-6">
-              <img src="/src/assets/images/lion_logo_gold_1782928538084.jpg" alt="Logo" className="w-20 h-20 rounded-full border-2 border-gold-premium" />
+              <img src="/src/assets/images/lion_logo_gold_1782928538084.jpg" alt="New Soldier City Logo" className="h-24 w-auto object-contain" />
               <div>
                 <h4 className="font-serif font-bold text-xl text-text-main">SAS Marketing</h4>
                 <p className="text-text-muted">Official Marketing Partner</p>

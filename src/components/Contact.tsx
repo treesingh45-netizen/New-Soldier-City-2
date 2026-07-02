@@ -50,8 +50,7 @@ Thank you.`;
           
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center gap-4 mb-6">
-               <img src="/src/assets/images/lion_logo_gold_1782928538084.jpg" alt="Logo" className="w-16 h-16 rounded-full border-2 border-gold-premium" />
-               <h3 className="text-3xl font-serif font-bold text-gold-premium">New Soldier City</h3>
+               <img src="/src/assets/images/lion_logo_gold_1782928538084.jpg" alt="New Soldier City Logo" className="h-20 w-auto object-contain bg-white rounded p-2" />
             </div>
             <p className="text-gray-300 mb-8 max-w-md leading-relaxed">
               A premium housing project on the Karachi-Hyderabad M-9 Motorway offering an unparalleled, luxurious lifestyle. We provide world-class amenities in a secure, gated environment. Secure your future and make a smart investment today.
@@ -73,7 +72,6 @@ Thank you.`;
                 <Phone className="text-gold-premium mt-1 flex-shrink-0" size={18} />
                 <div>
                   <a href="tel:03116000019" className="hover:text-white transition-colors block">0311 6000019</a>
-                  <a href="tel:03332000019" className="hover:text-white transition-colors block mt-1">0333 2000019</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
