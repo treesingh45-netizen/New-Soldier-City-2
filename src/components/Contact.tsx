@@ -31,7 +31,7 @@ Please contact me as soon as possible.
 Thank you.`;
 
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/923116000019?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/923332000019?text=${encodedMessage}`, '_blank');
   };
 
   return (
@@ -74,25 +74,25 @@ Thank you.`;
               <li className="flex items-start gap-3">
                 <Phone className="text-gold-premium mt-1 flex-shrink-0" size={18} />
                 <div>
-                  <a href="tel:03116000019" className="hover:text-white transition-colors block">0311 6000019</a>
+                  <a href="tel:03332000019" className="hover:text-white transition-colors block">0333 2000019</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <MessageCircle className="text-gold-premium mt-1 flex-shrink-0" size={18} />
-                <a href="https://wa.me/923116000019" target="_blank" rel="noreferrer" className="hover:text-white transition-colors block">
-                  0311 6000019 (WhatsApp)
+                <a href="https://wa.me/923332000019" target="_blank" rel="noreferrer" className="hover:text-white transition-colors block">
+                  0333 2000019 (WhatsApp)
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="text-gold-premium mt-1 flex-shrink-0" size={18} />
-                <a href="mailto:carachienterprise786@gmail.com" className="hover:text-white transition-colors break-words">
-                  carachienterprise786@gmail.com
+                <a href="mailto:newsoldiercitym9@gmail.com" className="hover:text-white transition-colors break-words">
+                  newsoldiercitym9@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="text-gold-premium mt-1 flex-shrink-0" size={18} />
                 <span className="leading-snug">
-                  Office #36 & 37, RJ Mall Rashid Minhas Road Near Millennium Mall, Karachi.
+                  Office# 51, 3rd floor, Rj shopping mall
                 </span>
               </li>
             </ul>
