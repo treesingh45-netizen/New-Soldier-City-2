@@ -46,10 +46,13 @@ export default function About() {
             </div>
             
             <div className="flex items-center gap-6">
-              <img src="/src/assets/images/lion_logo_gold_1782928538084.jpg" alt="New Soldier City Logo" className="h-24 w-auto object-contain" />
-              <div>
-                <h4 className="font-serif font-bold text-xl text-text-main">SAS Marketing</h4>
-                <p className="text-text-muted">Official Marketing Partner</p>
+              <div className="flex flex-col">
+                <span className="font-serif font-bold text-2xl sm:text-3xl text-text-main leading-none uppercase tracking-wide">
+                  New Soldier City
+                </span>
+                <div className="h-[2px] w-16 bg-[#C8A24A] mt-2 mb-3"></div>
+                <h4 className="font-serif font-bold text-lg text-text-main">SAS Marketing</h4>
+                <p className="text-sm text-text-muted">Official Marketing Partner</p>
               </div>
             </div>
           </motion.div>

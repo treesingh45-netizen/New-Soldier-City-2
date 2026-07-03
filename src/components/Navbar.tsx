@@ -29,12 +29,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0 flex items-center gap-4">
-            <img 
-              src="/src/assets/images/lion_logo_gold_1782928538084.jpg" 
-              alt="New Soldier City Logo" 
-              className="h-14 w-14 sm:h-16 sm:w-16 object-cover rounded-full border-2 border-[#C8A24A] bg-white p-0.5 shadow-lg" 
-            />
-            <span className={`font-serif font-bold text-xl sm:text-2xl hidden md:block text-white tracking-wide`}>
+            <span className={`font-serif font-bold text-xl sm:text-2xl text-white tracking-wide`}>
               NEW SOLDIER CITY
             </span>
           </div>

@@ -49,8 +49,11 @@ Thank you.`;
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
           <div className="col-span-1 lg:col-span-2">
-            <div className="flex items-center gap-4 mb-6">
-               <img src="/src/assets/images/lion_logo_gold_1782928538084.jpg" alt="New Soldier City Logo" className="h-20 w-auto object-contain bg-white rounded p-2" />
+            <div className="flex flex-col gap-2 mb-6">
+              <span className="font-serif font-bold text-3xl sm:text-4xl text-white uppercase tracking-wider">
+                New Soldier City
+              </span>
+              <div className="h-[2px] w-20 bg-gradient-to-r from-[#C8A24A] to-transparent"></div>
             </div>
             <p className="text-gray-300 mb-8 max-w-md leading-relaxed">
               A premium housing project on the Karachi-Hyderabad M-9 Motorway offering an unparalleled, luxurious lifestyle. We provide world-class amenities in a secure, gated environment. Secure your future and make a smart investment today.
