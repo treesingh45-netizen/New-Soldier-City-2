@@ -5,7 +5,7 @@ import { pricingData } from '../data';
 
 export default function EmiEstimator() {
   const [amountString, setAmountString] = useState(pricingData[1].total); // 610,000
-  const [duration, setDuration] = useState(59);
+  const [duration, setDuration] = useState(60);
 
   // Parse amount from string like "610,000" or "12,20,000"
   const totalAmount = parseInt(amountString.replace(/,/g, ''), 10);
@@ -41,7 +41,7 @@ export default function EmiEstimator() {
         <input 
           type="range" 
           min="1" 
-          max="59" 
+          max="60" 
           value={duration} 
           onChange={(e) => setDuration(parseInt(e.target.value, 10))}
           className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-gold-accent"

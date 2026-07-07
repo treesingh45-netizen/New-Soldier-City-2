@@ -128,7 +128,21 @@ Thank you.`;
 
         </div>
 
-        <div className="border-t border-gray-800 pt-8 mt-12 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+        <div className="mt-8 mb-12 rounded-xl overflow-hidden border border-gray-700 h-64 md:h-80 relative z-10 w-full">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.3364952002574!2d67.11181677610051!3d24.88647034421671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3391219b16ea5%3A0xc6fb6ddb2fc2980e!2sRJ%20Shopping%20Mall!5e0!3m2!1sen!2s!4v1718000000000!5m2!1sen!2s" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0 }} 
+            allowFullScreen={false} 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+            title="New Soldier City Head Office Location"
+            className="absolute inset-0 grayscale contrast-125 opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+          ></iframe>
+        </div>
+
+        <div className="border-t border-gray-800 pt-8 mt-4 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
           <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">
             <p>Copyright {new Date().getFullYear()} New Soldier City All rights reserved</p>
             <div className="flex space-x-2 mt-2">

@@ -38,7 +38,7 @@ export default function Pricing() {
                 <tr className="bg-text-main text-white">
                   <th className="p-4 font-serif font-semibold border-b border-r border-gray-700">PLOT SIZE</th>
                   <th className="p-4 font-serif font-semibold border-b border-r border-gray-700 text-center">BOOKING</th>
-                  <th className="p-4 font-serif font-semibold border-b border-r border-gray-700 text-center">INSTALLMENT (x59)</th>
+                  <th className="p-4 font-serif font-semibold border-b border-r border-gray-700 text-center">INSTALLMENT (x60)</th>
                   <th className="p-4 font-serif font-semibold border-b text-center bg-gold-premium text-white">TOTAL VALUE (Rs)</th>
                 </tr>
               </thead>
