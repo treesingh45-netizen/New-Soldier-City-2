@@ -92,7 +92,7 @@ Thank you.`;
               <li className="flex items-start gap-3">
                 <MapPin className="text-gold-premium mt-1 flex-shrink-0" size={18} />
                 <span className="leading-snug">
-                  Office# 51, 3rd floor, Rj shopping mall
+                  3rd Floor, Suite 51, Main Rashid Minhas Rd
                 </span>
               </li>
             </ul>
@@ -130,7 +130,7 @@ Thank you.`;
 
         <div className="mt-8 mb-12 rounded-xl overflow-hidden border border-gray-700 h-64 md:h-80 relative z-10 w-full">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.3364952002574!2d67.11181677610051!3d24.88647034421671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3391219b16ea5%3A0xc6fb6ddb2fc2980e!2sRJ%20Shopping%20Mall!5e0!3m2!1sen!2s!4v1718000000000!5m2!1sen!2s" 
+            src="https://maps.google.com/maps?q=RJ%20Shopping%20Mall%2C%20Main%20Rashid%20Minhas%20Rd%2C%20Gulistan-e-Johar%2C%20Karachi%2C%2075300%2C%20Pakistan&t=&z=15&ie=UTF8&iwloc=&output=embed" 
             width="100%" 
             height="100%" 
             style={{ border: 0 }} 
