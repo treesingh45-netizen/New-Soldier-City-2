@@ -12,14 +12,15 @@ import {
 } from 'lucide-react';
 
 export const pricingData = [
-  { size: '80 Sq. Yard', booking: '5,600', total: '436,000' },
-  { size: '120 Sq. Yard', booking: '8,500', total: '610,000' },
-  { size: '200 Sq. Yard', booking: '14,000', total: '990,000' },
-  { size: '240 Sq. Yard', booking: '17,000', total: '12,20,000' },
-  { size: '300 Sq. Yard', booking: '23,000', total: '16,30,000' },
-  { size: '400 Sq. Yard', booking: '28,000', total: '19,80,000' },
-  { size: '500 Sq. Yard', booking: '34,000', total: '23,90,000' },
-  { size: '1000 Sq. Yard', booking: '69,000', total: '46,40,000' },
+  { size: '80 Sq. Yard', booking: '7,000', monthly: '4,13,000', halfYearly: '23,000', total: '6,50,000', fullCash: '4,55,000', discount: '1,95,000' },
+  { size: '120 Sq. Yard', booking: '10,000', monthly: '5,90,000', halfYearly: '35,000', total: '9,50,000', fullCash: '6,65,000', discount: '2,85,000' },
+  { size: '200 Sq. Yard', booking: '17,000', monthly: '10,03,000', halfYearly: '33,000', total: '13,50,000', fullCash: '9,45,000', discount: '4,05,000' },
+  { size: '240 Sq. Yard', booking: '20,000', monthly: '11,80,000', halfYearly: '40,000', total: '16,00,000', fullCash: '11,20,000', discount: '4,80,000' },
+  { size: '300 Sq. Yard', booking: '25,425', monthly: '14,75,000', halfYearly: '54,575', total: '20,50,000', fullCash: '14,35,000', discount: '6,15,000' },
+  { size: '400 Sq. Yard', booking: '25,000', monthly: '20,65,000', halfYearly: '46,000', total: '25,50,000', fullCash: '17,85,000', discount: '7,65,000' },
+  { size: '500 Sq. Yard', booking: '40,000', monthly: '23,60,000', halfYearly: '54,000', total: '29,50,000', fullCash: '20,65,000', discount: '8,85,000' },
+  { size: '600 Sq. Yard', booking: '47,000', monthly: '27,73,000', halfYearly: '73,000', total: '35,50,000', fullCash: '24,85,000', discount: '10,65,000' },
+  { size: '1000 Sq. Yard', booking: '76,000', monthly: '44,84,000', halfYearly: '87,000', total: '53,50,000', fullCash: '37,45,000', discount: '16,05,000' },
 ];
 
 export const locationData = [

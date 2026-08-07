@@ -4,15 +4,15 @@ import { Calculator } from 'lucide-react';
 import { pricingData } from '../data';
 
 export default function EmiEstimator() {
-  const [amountString, setAmountString] = useState(pricingData[1].total); // 610,000
-  const [duration, setDuration] = useState(60);
+  const [amountString, setAmountString] = useState(pricingData[1].total); // 9,50,000
+  const [duration, setDuration] = useState(59);
 
   // Parse amount from string like "610,000" or "12,20,000"
   const totalAmount = parseInt(amountString.replace(/,/g, ''), 10);
   const emi = totalAmount / duration;
 
   return (
-    <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8 max-w-sm mx-auto">
+    <div className="bg-white rounded-2xl shadow-xl border border-gray-100 p-8 max-w-sm mx-auto h-full flex flex-col">
       <div className="flex items-center gap-3 border-b border-gray-100 pb-4 mb-6">
         <Calculator className="text-gold-accent" size={24} />
         <h3 className="text-xl font-bold text-text-main">EMI Estimator</h3>
@@ -33,7 +33,7 @@ export default function EmiEstimator() {
         </select>
       </div>
 
-      <div className="mb-8">
+      <div className="mb-8 flex-grow">
         <div className="flex justify-between items-center mb-4">
           <label className="text-sm font-medium text-text-muted">Duration</label>
           <span className="font-bold text-gold-accent">{duration} Months</span>
@@ -41,7 +41,7 @@ export default function EmiEstimator() {
         <input 
           type="range" 
           min="1" 
-          max="60" 
+          max="59" 
           value={duration} 
           onChange={(e) => setDuration(parseInt(e.target.value, 10))}
           className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-gold-accent"
@@ -61,7 +61,7 @@ export default function EmiEstimator() {
 
       <a 
         href="#contact"
-        className="block w-full text-center bg-gold-premium hover:bg-gold-accent text-white font-bold py-3 rounded-xl transition-colors shadow-md"
+        className="block w-full text-center bg-gold-premium hover:bg-gold-accent text-white font-bold py-3 rounded-xl transition-colors shadow-md mt-auto"
       >
         Request Details
       </a>
