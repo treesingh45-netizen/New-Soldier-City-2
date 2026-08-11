@@ -59,10 +59,10 @@ Thank you.`;
               A premium housing project on the Karachi-Hyderabad M-9 Motorway offering an unparalleled, luxurious lifestyle. We provide world-class amenities in a secure, gated environment. Secure your future and make a smart investment today.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.facebook.com/people/Carachi-Enterprises/61577766358843/?utm_source=ig&utm_medium=social&utm_content=link_in_bio" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-premium transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=61591516420880" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-premium transition-colors">
                 <Facebook size={20} />
               </a>
-              <a href="https://www.instagram.com/carachienterprises" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-premium transition-colors">
+              <a href="https://www.instagram.com/newsoldiercity/" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold-premium transition-colors">
                 <Instagram size={20} />
               </a>
             </div>

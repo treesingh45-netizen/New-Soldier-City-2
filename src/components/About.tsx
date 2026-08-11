@@ -66,7 +66,7 @@ export default function About() {
           >
             <div className="absolute inset-0 bg-gold-premium/10 rounded-2xl -translate-x-4 translate-y-4"></div>
             <img
-              src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop"
+              src="https://images.pexels.com/photos/17226654/pexels-photo-17226654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Modern Villa"
               className="rounded-2xl shadow-xl relative z-10 w-full h-[500px] object-cover"
             />

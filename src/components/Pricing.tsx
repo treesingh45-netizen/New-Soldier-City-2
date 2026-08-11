@@ -29,7 +29,6 @@ export default function Pricing() {
         </div>
 
         <div className="flex flex-col gap-12">
-          {/* Main Pricing Table */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}

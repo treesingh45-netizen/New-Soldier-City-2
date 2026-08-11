@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'motion/react';
 
 const images = [
-  { src: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop', title: 'Premium Villas' },
-  { src: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800&auto=format&fit=crop', title: 'Modern Architecture' },
+  { src: 'https://images.pexels.com/photos/33977060/pexels-photo-33977060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', title: 'Premium Villas' },
+  { src: 'https://images.pexels.com/photos/5563473/pexels-photo-5563473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', title: 'Modern Architecture' },
   { src: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=800&auto=format&fit=crop', title: 'Beautiful Homes' },
   { src: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop', title: 'Lush Green Parks' },
-  { src: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=800&auto=format&fit=crop', title: 'Community View' },
+  { src: 'https://images.pexels.com/photos/33414224/pexels-photo-33414224.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2', title: 'Community View' },
   { src: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&auto=format&fit=crop', title: 'Luxury Living' },
 ];
 

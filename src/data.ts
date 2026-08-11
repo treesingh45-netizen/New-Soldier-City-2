@@ -12,15 +12,18 @@ import {
 } from 'lucide-react';
 
 export const pricingData = [
-  { size: '80 Sq. Yard', booking: '7,000', monthly: '4,13,000', halfYearly: '23,000', total: '6,50,000', fullCash: '4,55,000', discount: '1,95,000' },
-  { size: '120 Sq. Yard', booking: '10,000', monthly: '5,90,000', halfYearly: '35,000', total: '9,50,000', fullCash: '6,65,000', discount: '2,85,000' },
-  { size: '200 Sq. Yard', booking: '17,000', monthly: '10,03,000', halfYearly: '33,000', total: '13,50,000', fullCash: '9,45,000', discount: '4,05,000' },
-  { size: '240 Sq. Yard', booking: '20,000', monthly: '11,80,000', halfYearly: '40,000', total: '16,00,000', fullCash: '11,20,000', discount: '4,80,000' },
-  { size: '300 Sq. Yard', booking: '25,425', monthly: '14,75,000', halfYearly: '54,575', total: '20,50,000', fullCash: '14,35,000', discount: '6,15,000' },
-  { size: '400 Sq. Yard', booking: '25,000', monthly: '20,65,000', halfYearly: '46,000', total: '25,50,000', fullCash: '17,85,000', discount: '7,65,000' },
-  { size: '500 Sq. Yard', booking: '40,000', monthly: '23,60,000', halfYearly: '54,000', total: '29,50,000', fullCash: '20,65,000', discount: '8,85,000' },
-  { size: '600 Sq. Yard', booking: '47,000', monthly: '27,73,000', halfYearly: '73,000', total: '35,50,000', fullCash: '24,85,000', discount: '10,65,000' },
-  { size: '1000 Sq. Yard', booking: '76,000', monthly: '44,84,000', halfYearly: '87,000', total: '53,50,000', fullCash: '37,45,000', discount: '16,05,000' },
+  { size: 'Residential 80 Sq. Yard', booking: '7,000', monthly: '4,13,000', halfYearly: '23,000', total: '6,50,000', fullCash: '4,55,000', discount: '1,95,000' },
+  { size: 'Residential 120 Sq. Yard', booking: '10,000', monthly: '5,90,000', halfYearly: '35,000', total: '9,50,000', fullCash: '6,65,000', discount: '2,85,000' },
+  { size: 'Residential 200 Sq. Yard', booking: '17,000', monthly: '10,03,000', halfYearly: '33,000', total: '13,50,000', fullCash: '9,45,000', discount: '4,05,000' },
+  { size: 'Residential 240 Sq. Yard', booking: '20,000', monthly: '11,80,000', halfYearly: '40,000', total: '16,00,000', fullCash: '11,20,000', discount: '4,80,000' },
+  { size: 'Residential 300 Sq. Yard', booking: '25,425', monthly: '14,75,000', halfYearly: '54,575', total: '20,50,000', fullCash: '14,35,000', discount: '6,15,000' },
+  { size: 'Residential 400 Sq. Yard', booking: '25,000', monthly: '20,65,000', halfYearly: '46,000', total: '25,50,000', fullCash: '17,85,000', discount: '7,65,000' },
+  { size: 'Residential 500 Sq. Yard', booking: '40,000', monthly: '23,60,000', halfYearly: '54,000', total: '29,50,000', fullCash: '20,65,000', discount: '8,85,000' },
+  { size: 'Residential 600 Sq. Yard', booking: '47,000', monthly: '27,73,000', halfYearly: '73,000', total: '35,50,000', fullCash: '24,85,000', discount: '10,65,000' },
+  { size: 'Residential 1000 Sq. Yard', booking: '76,000', monthly: '44,84,000', halfYearly: '87,000', total: '53,50,000', fullCash: '37,45,000', discount: '16,05,000' },
+  { size: '100 Sq. Yard Commercial', booking: '20,000', monthly: '11,80,000', halfYearly: '30,000', total: '15,00,000', fullCash: '10,50,000', discount: '4,50,000' },
+  { size: '200 Sq. Yard Commercial', booking: '34,000', monthly: '20,06,000', halfYearly: '96,000', total: '30,00,000', fullCash: '21,00,000', discount: '9,00,000' },
+  { size: '400 Sq. Yard Commercial', booking: '68,000', monthly: '40,12,000', halfYearly: '1,92,000', total: '60,00,000', fullCash: '42,00,000', discount: '18,00,000' },
 ];
 
 export const locationData = [

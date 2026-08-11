@@ -20,17 +20,24 @@ export default function EmiEstimator() {
 
       <div className="mb-6">
         <label className="block text-sm font-medium text-text-muted mb-2">Total Amount (Rs.)</label>
-        <select 
-          value={amountString}
-          onChange={(e) => setAmountString(e.target.value)}
-          className="w-full text-3xl font-bold text-text-main bg-transparent focus:outline-none cursor-pointer appearance-none"
-        >
-          {pricingData.map((plot, idx) => (
-            <option key={idx} value={plot.total}>
-              {plot.total} ({plot.size})
-            </option>
-          ))}
-        </select>
+        <div className="relative">
+          <select 
+            value={amountString}
+            onChange={(e) => setAmountString(e.target.value)}
+            className="w-full text-base font-semibold text-text-main bg-primary border border-border-light rounded-lg px-4 py-3 appearance-none focus:outline-none focus:ring-2 focus:ring-gold-accent focus:border-transparent cursor-pointer pr-10"
+          >
+            {pricingData.map((plot, idx) => (
+              <option key={idx} value={plot.total}>
+                Rs. {plot.total} - {plot.size}
+              </option>
+            ))}
+          </select>
+          <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-gray-500">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </div>
+        </div>
       </div>
 
       <div className="mb-8 flex-grow">
