@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import sameerImage from '../assets/sameer-ali-siddiqui.png';
 
 export default function About() {
   return (
@@ -73,63 +72,6 @@ export default function About() {
             />
           </motion.div>
         </div>
-
-        {/* Leadership Profile */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="mt-32 pt-20 border-t border-border-light"
-        >
-          <div className="flex flex-col items-center text-center mb-16">
-            <div className="flex items-center gap-4 mb-4">
-              <div className="h-[2px] w-12 bg-gold-premium"></div>
-              <span className="text-gold-premium font-semibold tracking-wider uppercase text-sm">Leadership Profile</span>
-              <div className="h-[2px] w-12 bg-gold-premium"></div>
-            </div>
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-text-main">Meet Our Leadership</h2>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            <div className="lg:col-span-4 relative group">
-              <div className="absolute inset-0 bg-gold-premium/10 rounded-2xl -translate-x-4 translate-y-4 transition-transform group-hover:translate-x-0 group-hover:translate-y-0 duration-500"></div>
-              <img
-                src={sameerImage}
-                alt="Sameer Ali Siddiqui"
-                className="rounded-2xl shadow-xl relative z-10 w-full aspect-[4/5] object-cover"
-              />
-            </div>
-            <div className="lg:col-span-8">
-              <h3 className="text-3xl md:text-4xl font-serif font-bold text-text-main mb-2">Sameer Ali Siddiqui</h3>
-              <div className="text-gold-premium font-semibold text-lg mb-6 leading-relaxed">
-                Director – Sales & Marketing, New Soldier City (Pvt.) Ltd.<br/>
-                Owner – SAS Marketing
-              </div>
-              <p className="text-text-muted text-lg mb-6 leading-relaxed">
-                Sameer Ali Siddiqui is an experienced real estate and sales & marketing professional with over 10 years of industry experience. He currently serves as Director of Sales & Marketing at New Soldier City (Pvt.) Ltd., where he focuses on sales strategy, marketing development, customer relationships, and business growth.
-              </p>
-              <p className="text-text-muted text-lg mb-8 leading-relaxed">
-                He is also the Owner of SAS Marketing, which he has been leading since 2016. With a strong background in sales, marketing, and real estate, his experience reflects a commitment to professional service, strategic growth, and long-term client relationships.
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <div className="bg-primary p-6 rounded-xl shadow-sm border border-border-light text-center hover:border-gold-premium transition-colors">
-                  <div className="text-3xl font-serif font-bold text-gold-premium mb-2">10+ Years</div>
-                  <div className="text-sm font-semibold text-text-main uppercase tracking-wider">Industry Experience</div>
-                </div>
-                <div className="bg-primary p-6 rounded-xl shadow-sm border border-border-light text-center hover:border-gold-premium transition-colors">
-                  <div className="text-3xl font-serif font-bold text-gold-premium mb-2">2016–Present</div>
-                  <div className="text-sm font-semibold text-text-main uppercase tracking-wider">Owner, SAS Marketing</div>
-                </div>
-                <div className="bg-primary p-6 rounded-xl shadow-sm border border-border-light text-center hover:border-gold-premium transition-colors">
-                  <div className="text-2xl font-serif font-bold text-gold-premium mb-2 leading-tight">Director<br/>Sales & Marketing</div>
-                  <div className="text-sm font-semibold text-text-main uppercase tracking-wider mt-2">New Soldier City</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
