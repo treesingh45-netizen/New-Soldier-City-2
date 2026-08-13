@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import leadershipImg from '../assets/leadership.png';
+import sameerImage from '../assets/sameer-ali-siddiqui.png';
 
 export default function About() {
   return (
@@ -95,7 +95,7 @@ export default function About() {
             <div className="lg:col-span-4 relative group">
               <div className="absolute inset-0 bg-gold-premium/10 rounded-2xl -translate-x-4 translate-y-4 transition-transform group-hover:translate-x-0 group-hover:translate-y-0 duration-500"></div>
               <img
-                src={leadershipImg}
+                src={sameerImage}
                 alt="Sameer Ali Siddiqui"
                 className="rounded-2xl shadow-xl relative z-10 w-full aspect-[4/5] object-cover"
               />
