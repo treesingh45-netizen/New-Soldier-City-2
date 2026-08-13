@@ -1,0 +1,14 @@
+<section className="director-section">
+  <img
+    src={sameerImage}
+    alt="Sameer Ali Siddiqui"
+    className="director-image"
+  />
+
+  <div>
+    <h2>Sameer Ali Siddiqui</h2>
+    <p>Director Sales and Marketing</p>
+    <p>New Soldier City Pvt. Ltd.</p>
+    <p>20+ Years of Experience</p>
+  </div>
+</section>
