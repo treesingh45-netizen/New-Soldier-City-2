@@ -27,9 +27,3 @@ export default function App() {
     </div>
   );
 }
-import sameerImage from '../assets/sameer-ali-siddiqui.png';
-<img
-  src={sameerImage}
-  alt="Sameer Ali Siddiqui"
-  className="w-full h-full object-cover"
-/>
