@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import leadershipImg from '../assets/leadership.jpg';
+import leadershipImg from '../assets/leadership.png';
 
 export default function About() {
   return (
